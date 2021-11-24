@@ -6,5 +6,5 @@ title: Andrew Sheerin
 #	URI <a href="https://www.uri.edu/programs/program/civil-environmental-engineering-m-s/"> Graduate School of Civil and Environmental Engineering </a>
 #	URI <a href="https://web.uri.edu/engineering/research/water/"> Water for the World Lab </a>
 
-#theme: jekyll-theme-minimal
- 
+theme: jekyll-theme-minimal
+bgcolo="teal" 
