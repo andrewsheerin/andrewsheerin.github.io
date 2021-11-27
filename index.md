@@ -1,5 +1,9 @@
-## Bio
 Hi! Welcome to my page. 
+
+##Bio
+
+- Environmental Engineering Graduate Research Assistant at the Univeristy of Rhode Island
+- Newport, RI
 
 ## Education
 
@@ -8,4 +12,4 @@ Hi! Welcome to my page.
 
 ## Projects
 
-[Water for the World](https://web.uri.edu/engineering/research/water/)
+- [Water for the World](https://web.uri.edu/engineering/research/water/)

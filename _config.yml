@@ -1,9 +1,10 @@
 title: Andrew Sheerin
 logo: "/headshot.jpg?raw=true"
-description: Civil and Environmental Engineering Graduate Student
-#	URI <a href="https://web.uri.edu/engineering/"> School of Engineering </a>
-#	URI <a href="https://www.uri.edu/programs/program/civil-environmental-engineering-m-s/"> Graduate School of Civil and Environmental Engineering </a>
-#	URI <a href="https://web.uri.edu/engineering/research/water/"> Water for the World Lab </a>
+description: >
+ Civil and Environmental Engineering Graduate Student
+ URI <a href="https://web.uri.edu/engineering/"> School of Engineering </a>
+ URI <a href="https://www.uri.edu/programs/program/civil-environmental-engineering-m-s/"> Graduate School of Civil and Environmental Engineering </a>
+ URI <a href="https://web.uri.edu/engineering/research/water/"> Water for the World Lab </a>
 
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 #bgcolo="teal" 
