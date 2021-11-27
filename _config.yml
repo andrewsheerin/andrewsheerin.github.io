@@ -1,5 +1,5 @@
 title: Andrew Sheerin
-logo: "/images/logo.JPEG?raw=true"
+logo: "/Users/andrewsheerin/Downloads/logo.JPEG?raw=true"
 #description: >
 # Civil and Environmental Engineering Graduate Student
 # URI <a href="https://web.uri.edu/engineering/"> School of Engineering </a>
@@ -7,4 +7,4 @@ logo: "/images/logo.JPEG?raw=true"
 # URI <a href="https://web.uri.edu/engineering/research/water/"> Water for the World Lab </a>
 
 #theme: jekyll-theme-minimal
-#bgcolo="teal" 
+#bgcolor="teal" 

@@ -1,9 +1,9 @@
 Hi! Welcome to my page. 
 
-##Bio
+## Bio
 
 - Environmental Engineering Graduate Research Assistant at the Univeristy of Rhode Island
-- Newport, RI
+
 
 ## Education
 
