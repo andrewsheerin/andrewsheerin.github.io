@@ -4,7 +4,6 @@ Hi! Welcome to my page.
 
 - Environmental Engineering Graduate Research Assistant at the Univeristy of Rhode Island
 
-
 ## Education
 
 - B.S Systems Engineering: George Washington University, 2019
