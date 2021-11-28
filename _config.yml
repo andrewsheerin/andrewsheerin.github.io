@@ -1,11 +1,5 @@
-title: Mansur Ali Jisan # your name (or website title) here
-logo: "/images/logo.jpeg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-	       Graduate Student, Graduate School of Oceanography{text-align: center;}
-  <br><br>
-    University of Rhode Island.
-  <br><br>
-  <a href="https://www.linkedin.com/in/xisan/">My LinkedIn Profile</a> 
+title: Andrew Sheerin # your name (or website title) here
+logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
