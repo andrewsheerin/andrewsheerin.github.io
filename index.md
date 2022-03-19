@@ -9,7 +9,7 @@
 - B.S Systems Engineering: George Washington University, 2019
 - M.S Civil and Environmental Engineering: University of Rhode Island, exp. 2022
 
-## Projects
+##### Projects
 
 Researching Stormwater pollution
 - [Water for the World](https://web.uri.edu/engineering/research/water/)
