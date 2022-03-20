@@ -60,6 +60,20 @@ mark {
 	color: inherit;
 }
 
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 10px 35px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -2518,7 +2532,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
+		background-color: #13729e;
 		border-radius: 5px;
 		border: 0;
 		color: #ffffff !important;
@@ -2537,8 +2551,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5;
-			color: #ffffff !important;
+			background-color: #0b3f57;
+			color: #0b3f57 !important;
 		}
 
 		input[type="submit"]:active,
