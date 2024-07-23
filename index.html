@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Sheerin's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+
+<div id="preloader">
+    <h1>Welcome to Andrew Sheerin's Portfolio</h1>
+    <p>Enjoy the Ride!</p>
+</div>
+
     <header>
         <div class="container">
             <div id="branding">
@@ -41,16 +48,17 @@
     <section id="skills">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>GIS</li>
-                <li>Data Analysis</li>
-                <li>Data Management</li>
-                <li>Environmental Life Cycle Assessment</li>
-                <li>Statistics</li>
-                <li>SWMM</li>
-                <li>Simulation and Modeling</li>
-            </ul>
+            <div class="skills-container">
+                <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
+                <div class="skill-item"><i class="fas fa-map"></i>GIS</div>
+                <div class="skill-item"><i class="fas fa-chart-bar"></i>Data Analysis</div>
+                <div class="skill-item"><i class="fas fa-database"></i>Data Management</div>
+                <div class="skill-item"><i class="fas fa-recycle"></i>Environmental Life Cycle Assessment</div>
+                <div class="skill-item"><i class="fas fa-chart-line"></i>Statistics</div>
+                <div class="skill-item"><i class="fas fa-water"></i>SWMM</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i>Simulation and Modeling</div>
+                <div class="skill-item"><i class="fa-solid fa-file"></i>Technical Writing</div>
+            </div>
         </div>
     </section>
 
@@ -87,7 +95,7 @@
                 </div>
                 <div class="project-item">
                     <a href="project2.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="Get HRRR">
+                        <img src="images/hrrr_300.png" alt="Get HRRR">
                         <div class="title">
                             <h3>GetHRRR</h3>
                         </div>
@@ -130,8 +138,8 @@
                     </a>
                 </div>
                 <div class="project-item">
-                    <a href="project6.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="Story Map">
+                    <a href="https://storymaps.arcgis.com/stories/113f119bbf244f74968067d8eea4cee1" target="_blank">
+                        <img src="images/storymap_300.png" alt="Story Map">
                         <div class="title">
                             <h3>Story Map</h3>
                         </div>
@@ -147,5 +155,21 @@
     <footer>
         <p>Andrew Sheerin &copy; 2024</p>
     </footer>
+
+    <script>
+
+    var loader = document.getElementById('preloader')
+
+    show = function(){
+        loader.style.display = 'block';
+        setTimeout(hide, 3500);
+    },
+    hide = function(){
+        loader.style.display = 'none';
+    };
+    show();
+
+
+    </script>
 </body>
 </html>

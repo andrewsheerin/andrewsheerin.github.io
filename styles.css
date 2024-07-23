@@ -77,6 +77,22 @@ section {
     border-bottom: #e8491d 1px solid;
 }
 
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+}
+
+.skill-item i {
+    margin-right: 10px;
+    font-size: 2em;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,11 +113,12 @@ section {
     position: absolute;
     top: 0%;
     width: 80%;
-    left: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     font-size: 20px;
     background: rgba(0, 0, 0, 0.7);
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 3px;
     z-index: 1;
 }
@@ -119,7 +136,7 @@ section {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -155,3 +172,35 @@ a:hover {
     color: #77d1a9;
     text-decoration: underline;
 }
+
+#preloader {
+    background: #071225 url(images/bike_preloader.gif) no-repeat center top;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20%; /* Adjust this value to move the GIF up or down */
+    color: white;
+    text-align: center;
+}
+
+#preloader h1, #preloader p {
+    margin: 10px 0 0 0; /* Adjust as necessary to create desired spacing */
+}
+
+#preloader h1 {
+    font-size: 40px; /* Adjust font size as needed */
+    margin-top: 5px; /* Space between the GIF and the text */
+}
+
+#preloader p {
+    font-size: 28px; /* Adjust font size as needed */
+}
+
+
+
