@@ -79,7 +79,7 @@ section {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
     gap: 20px;
 }
 
@@ -184,9 +184,10 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 20%; /* Adjust this value to move the GIF up or down */
+    padding-top: 30%; /* Adjust this value to move the GIF up or down */
     color: white;
     text-align: center;
+    transition: opacity 1s ease-out;
 }
 
 #preloader h1, #preloader p {
@@ -200,6 +201,16 @@ a:hover {
 
 #preloader p {
     font-size: 28px; /* Adjust font size as needed */
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+#portfolio {
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 
 

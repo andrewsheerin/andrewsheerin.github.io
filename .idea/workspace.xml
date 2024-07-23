@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910d6fd0-c862-420a-8e1d-559f8875e11f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/andrewsheerin.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/andrewsheerin.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bike_preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bike_preloader.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_formatting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

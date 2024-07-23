@@ -14,6 +14,7 @@
     <p>Enjoy the Ride!</p>
 </div>
 
+<div id="portfolio" class="hidden">
     <header>
         <div class="container">
             <div id="branding">
@@ -51,12 +52,13 @@
             <div class="skills-container">
                 <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
                 <div class="skill-item"><i class="fas fa-map"></i>GIS</div>
-                <div class="skill-item"><i class="fas fa-chart-bar"></i>Data Analysis</div>
+                <div class="skill-item"><i class="fa-solid fa-laptop"></i>Computer Modeling</div>
+                <div class="skill-item"><i class="fas fa-chart-line"></i>Statistics</div>
                 <div class="skill-item"><i class="fas fa-database"></i>Data Management</div>
                 <div class="skill-item"><i class="fas fa-recycle"></i>Environmental Life Cycle Assessment</div>
-                <div class="skill-item"><i class="fas fa-chart-line"></i>Statistics</div>
-                <div class="skill-item"><i class="fas fa-water"></i>SWMM</div>
-                <div class="skill-item"><i class="fas fa-cogs"></i>Simulation and Modeling</div>
+                <div class="skill-item"><i class="fas fa-water"></i>Hydraulic and Hydrologic Simulation</div>
+                <div class="skill-item"><i class="fa-solid fa-vial"></i>Analytical Chemistry</div>
+                <div class="skill-item"><i class="fa-solid fa-list-check"></i>Engineering Management</div>
                 <div class="skill-item"><i class="fa-solid fa-file"></i>Technical Writing</div>
             </div>
         </div>
@@ -155,6 +157,7 @@
     <footer>
         <p>Andrew Sheerin &copy; 2024</p>
     </footer>
+</div>
 
     <script>
 
@@ -162,7 +165,7 @@
 
     show = function(){
         loader.style.display = 'block';
-        setTimeout(hide, 3500);
+        setTimeout(hide, 5000);
     },
     hide = function(){
         loader.style.display = 'none';
@@ -171,5 +174,23 @@
 
 
     </script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const preloader = document.getElementById('preloader');
+        const portfolio = document.getElementById('portfolio');
+
+    // Simulate loading time
+    setTimeout(() => {
+        preloader.style.opacity = '0';
+        portfolio.classList.remove('hidden');
+    }, 3000); // Adjust the timeout duration as needed
+
+    // Remove preloader from the DOM after the transition
+    preloader.addEventListener('transitionend', () => {
+        preloader.style.display = 'none';
+    });
+});
+</script>
 </body>
 </html>
