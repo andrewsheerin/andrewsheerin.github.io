@@ -3,166 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrew Sheerin's Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-<div id="preloader">
-    <h1>Welcome to Andrew Sheerin's Portfolio</h1>
-    <p>Enjoy the Ride!</p>
-</div>
+    <div id="preloader">
+        <h1>Welcome to Andrew Sheerin's Portfolio</h1>
+        <p>Enjoy the Ride!</p>
+    </div>
 
-<div id="portfolio" class="hidden">
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Andrew Sheerin</h1>
-                <p>Email: <a href="mailto:asheerin97@gmail.com">asheerin97@gmail.com</a> | Phone: <a href="tel:4016266827">401-626-6827</a></p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="showcase">
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Ph.D. candidate in Environmental Engineering passionate about sustainability and water resources management.</p>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
+    <div class="sidebar">
+        <a href="#about" class="headshot-link">
+            <img src="images/headshot_circle.jpg" alt="Headshot" class="headshot">
+        </a>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#other">Other</a></li>
+        </ul>
+    </div>
+    <div class="portfolio">
+        <section id="about">
             <h2>About Me</h2>
-            <p>I am a Ph.D. candidate in Environmental Engineering with a background in Systems Engineering. My research focuses on water quality and utilizes advanced modeling techniques and data analytics to better understand and manage water resources. With my multidisciplinary experience and a passion for sustainability, I am dedicated to contributing to a more resilient world.</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
+            <p>Content about yourself.</p>
+        </section>
+        <section id="skills">
             <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
-                <div class="skill-item"><i class="fas fa-map"></i>GIS</div>
-                <div class="skill-item"><i class="fa-solid fa-laptop"></i>Computer Modeling</div>
-                <div class="skill-item"><i class="fas fa-chart-line"></i>Statistics</div>
-                <div class="skill-item"><i class="fas fa-database"></i>Data Management</div>
-                <div class="skill-item"><i class="fas fa-recycle"></i>Environmental Life Cycle Assessment</div>
-                <div class="skill-item"><i class="fas fa-water"></i>Hydraulic and Hydrologic Simulation</div>
-                <div class="skill-item"><i class="fa-solid fa-vial"></i>Analytical Chemistry</div>
-                <div class="skill-item"><i class="fa-solid fa-list-check"></i>Engineering Management</div>
-                <div class="skill-item"><i class="fa-solid fa-file"></i>Technical Writing</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education">
-        <div class="container">
+            <p>Content about your skills.</p>
+        </section>
+        <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li>B.S. Engineering Management and System Engineering from George Washington University (May 2019)
-                    <ul>
-                        <li>Minor in Sustainability</li>
-                    </ul>
-                </li>
-                <li>M.S. Environmental Engineering from University of Rhode Island (May 2023)</li>
-                <li>Graduate certificate in GIS/Remote Sensing from University of Rhode Island (May 2024)</li>
-                <li>Ph.D. Environmental Engineering from University of Rhode Island (Expected May 2025)</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Example Projects</h2>
-            <div class="projects-grid">
-                <div class="project-item">
-                    <a href="project1.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="Carbon Modeling">
-                        <div class="title">
-                            <h3>Carbon Modeling</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>Developed a model to estimate carbon emissions.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="project2.html" target="_blank">
-                        <img src="images/hrrr_300.png" alt="Get HRRR">
-                        <div class="title">
-                            <h3>GetHRRR</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>High-resolution rapid refresh model for weather data.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="project3.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="PASST">
-                        <div class="title">
-                            <h3>SWPT</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>Sweeping and Washoff Pollution Tracker</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="project4.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="Road Prioritization Model">
-                        <div class="title">
-                            <h3>Route Prioritization Model</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>Model to prioritize road maintenance tasks.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="project5.html" target="_blank">
-                        <img src="https://via.placeholder.com/300" alt="GeoSWMM">
-                        <div class="title">
-                            <h3>GeoSWMMM</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>Geospatial stormwater management model.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="https://storymaps.arcgis.com/stories/113f119bbf244f74968067d8eea4cee1" target="_blank">
-                        <img src="images/storymap_300.png" alt="Story Map">
-                        <div class="title">
-                            <h3>Story Map</h3>
-                        </div>
-                        <div class="overlay">
-                            <p>Interactive map to tell environmental stories.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>Andrew Sheerin &copy; 2024</p>
-    </footer>
-</div>
+            <p>Content about your education.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Content about your projects.</p>
+        </section>
+        <section id="other">
+            <h2>Other</h2>
+            <p>Other content.</p>
+        </section>
+    </div>
 
     <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+
+    <script>
     var loader = document.getElementById('preloader')
-
     show = function(){
         loader.style.display = 'block';
         setTimeout(hide, 5000);
@@ -171,26 +70,21 @@
         loader.style.display = 'none';
     };
     show();
-
-
     </script>
 
     <script>
     document.addEventListener("DOMContentLoaded", function() {
         const preloader = document.getElementById('preloader');
         const portfolio = document.getElementById('portfolio');
-
-    // Simulate loading time
     setTimeout(() => {
         preloader.style.opacity = '0';
         portfolio.classList.remove('hidden');
-    }, 3000); // Adjust the timeout duration as needed
-
-    // Remove preloader from the DOM after the transition
+        }, 3000); // Adjust the timeout duration as needed
     preloader.addEventListener('transitionend', () => {
         preloader.style.display = 'none';
+        });
     });
-});
-</script>
+    </script>
+
 </body>
 </html>
