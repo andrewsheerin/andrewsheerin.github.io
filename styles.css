@@ -160,6 +160,9 @@ section h2 {
         position: relative;
         border-right: none;
         border-bottom: 3px solid white; /* Adds a bottom border for mobile */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .headshot {
@@ -169,17 +172,18 @@ section h2 {
 
     .sidebar ul {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
+        width: 100%;
+        padding: 10px 0;
     }
 
     .sidebar ul li {
-        margin: 10px 0;
+        margin: 0;
     }
 
     .sidebar ul li a {
         font-size: 16px;
-        padding: 5px;
+        padding: 10px 15px;
     }
 
     .contact-info {
@@ -190,6 +194,7 @@ section h2 {
         display: flex;
         justify-content: space-around;
         padding: 10px;
+        width: 100%;
     }
 
     .contact-info a {
