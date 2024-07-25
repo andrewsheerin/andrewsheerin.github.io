@@ -26,37 +26,45 @@ body {
 
 #preloader h1, #preloader p {
     margin: 5px 0 0 0;
-    animation: fadeIn 2s forwards;
 }
 
 #preloader h1 {
     font-size: 40px;
-    margin-top: 30px;
-    animation-delay: 0.5s;
+    margin-top: 30%;
 }
 
 #preloader p {
     font-size: 28px;
     margin-top: 10px;
-    animation-delay: 1s;
 }
 
+.fade-in-text {
+  animation: fadeIn 3s;
+}
 
 @keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.sidebar h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #0BF5B2;
+    border-bottom: 3px solid #0BF5B2;
 }
 
 .headshot-link {
     display: block;
     text-align: center;
     padding: 20px;
+    border-bottom: 3px solid #0BF5B2;
 }
 
 .headshot {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
@@ -65,11 +73,12 @@ body {
 
 .sidebar {
     width: 20%;
-    background-color: #333;
+    background: url(images/dark_background.jpg) right;
     color: white;
     padding: 0px;
     height: 100vh;
     position: fixed;
+    border-right: 3px solid #0BF5B2;
 }
 
 .sidebar h2 {
@@ -91,9 +100,11 @@ body {
     display: block;
     padding: 10px;
     transition: background 0.3s;
+    font-size: 20px;
 }
 
 .sidebar ul li a:hover {
+    color: #0BF5B2;
     background-color: #575757;
 }
 
@@ -107,6 +118,8 @@ body {
 }
 
 section {
+    background: url(images/light_background.jpg);
+    background-size: 200%;
     height: 100vh;
     position: relative;
     padding: 20px;
