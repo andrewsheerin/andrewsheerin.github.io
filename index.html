@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Andrew Sheerin's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -18,8 +18,10 @@
     </div>
 
     <div class="sidebar">
-        <h1>Andrew Sheerin</h1>
-        <a href="#about" class="headshot-link">
+        <a href="#home" class="name-link">
+            <h1> Andrew Sheerin</h1>
+        </a>
+        <a href="#home" class="headshot-link">
             <img src="images/headshot_circle.jpg" alt="Headshot" class="headshot">
         </a>
         <ul>
@@ -32,23 +34,183 @@
         <div class="contact-info">
             <a href="https://github.com/andrewsheerin" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/in/asheerin" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:asheerin97@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="Sheerin_resume.pdf" target="_blank"><i class="fas fa-file"></i></a>
         </div>
+        <!--
+        <div class="contact-desc">
+            <a href="https://github.com/andrewsheerin" target="_blank">Github</a>
+            <a href="https://linkedin.com/in/asheerin" target="_blank">LinkedIn</a>
+            <a href="Sheerin_resume.pdf" target="_blank">Resume</a>
+        </div>
+        -->
 
     </div>
 
     <div class="portfolio">
+        <section id="home">
+            <h2>Hi, I'm <span>Andrew Sheerin</span></h2>
+            <h3><span id="typing"></span></h3>
+            <p>I am an environmental enthusiast with a knack for computer programming.
+                I love honing in new skills and developing them to accomplish my goals:
+                use the power of data to support a more sustainable and resilient planet.</p>
+        </section>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi! I am a Ph.D. candidate in Environmental Engineering at the University of Rhode Island.
-                I am passionate about using data science and machine learning to solve environmental problems.
-                I am also a musician and a lover of the outdoors. I am always looking for new ways to combine my passions and learn new things.
-
+            <p>
+                I am a Ph.D. candidate in Environmental Engineering at University of Rhode Island. I am in my final year
+                in my program looking forward to transitioning into industry and applying all that I have learned thus far in academia.
+            </p>
+            <p>
+                I started my journey in Newport, Rhode Island, a small city with beautiful coastlines and a vibrant environment.
+                Growing up in Newport was a treat, as it provided bountiful experiences. I am most grateful for the opportunities
+                I had at a young age to learn to sail at Ida Lewis Yacht Club. I fell in love with the sport and started racing competitively,
+                finding success at regional, national, and international events. I never looked back and couldn’t get enough time on the water,
+                knowing it was something I wanted to commit the rest of my life to.
+            </p>
+            <p>
+                My high school education was at a Portsmouth Abbey School, a benedictine catholic boarding school, in which I enrolled as a day student.
+                The school was amazing for a teenager, bringing together students from all around the world to share cultures and experiences.
+                The curriculum was majorly focused on the liberal arts, although important, did not necessarily correspond with my analytical
+                and mathematical way of thinking. Regardless, the four years at the Abbey gave me the roots I needed to mature socially and intellectually.
+            </p>
+            <p>
+                Engineering, sailing, and a desire to venture from the small state of Rhode Island brought me to the George Washington University in
+                Washington, D.C. I enrolled as a systems engineer with a goal of engineering versatility. The curriculum taught me statistics,
+                computer science, and engineering management, all essential skills that can be applied to any engineering project, no matter the industry.
+                A passion for sustainability drove me to minor in the field to gain insights on how to integrate my engineering background for a more
+                sustainable environment. I also sailed for the GW varsity sailing team, devoted many hours and finding much success at the highest level of the sport.
+            </p>
+            <p>
+                The combination of the engineering curriculum and the sailing team was intensive. It was my decision to spend some time traveling after my graduation.
+                I joined a sailing team that brought me to Cascais, Portugal for 2 months which was a surreal experience. Afterwards, I toured other parts of Europe,
+                including Ireland and the Netherlands.
+            </p>
+            <p>
+                My desire to build a more resilient and sustainable planet drove me to a new journey at the University of Rhode Island in the Department of
+                Civil & Environmental Engineering. I was fortunate to join an amazing research group called Water for the World and advisor, Dr. Vinka Craver.
+                Although my initial plan was to pursue a M.S., I quickly realized how much academia has to offer. The resources and learning environment at URI,
+                particularly in our department, is unrivaled, making the decision easy to stay for a Ph.D. My time at URI has pushed me to broaden my horizons,
+                including learning water and analytical chemistry, something I never thought I would do. Naturally, my computer-based mindset took over and I
+                started learning GIS and honing my programming skills. Now I am able to utilize the power of spatial data analytics to target environmental solutions.
+                My specific research focuses on stormwater pollution. I have developed simulation models predicting the transport of pollutants and optimization
+                techniques to enhance street sweeping programs to reduce stormwater pollution.
+            </p>
+            <p>
+                On a more personal note, I still love to sail and try to race competitively as much as I can. However, controversial to my younger self,
+                I have learned the importance of balance, so I try to limit my time on the water and mix in other hobbies.
+                I also love to mountain bike, road bike, ski, play golf, play chess, listen to music, play with my dog (Mack), and just generally remain adventurous.
             </p>
         </section>
+
+        <!-- Skills Section -->
         <section id="skills">
             <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-box">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div>
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-terminal"></i>
+                            <span>Shell Scripting</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-windows"></i>
+                            <span>Windows</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-apple"></i>
+                            <span>MacOS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <h3>Libraries</h3>
+                    <div class="skills-grid">
+                        <div>
+                            <span>Pandas</span>
+                        </div>
+                        <div>
+                            <span>Arcpy</span>
+                        </div>
+                        <div>
+                            <span>Numpy</span>
+                        </div>
+                        <div>
+                            <span>matplotlib</span>
+                        </div>
+                        <div>
+                            <span>scikit-learn</span>
+                        </div>
+                        <div>
+                            <span>beautiful-soup</span>
+                        </div>
+                        <div>
+                            <span>Pillow</span>
+                        </div>
+                        <div>
+                            <span>meteostat</span>
+                        </div>
+                        <div>
+                            <span>PyPi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <h3>Software</h3>
+                    <div class="skills-grid">
+                        <div>
+                            <i class="fas fa-file-word"></i>
+                            <span>Microsoft Office</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-google"></i>
+                            <span>Google Workspace</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>ArcGIS</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div>
+                            <span>Minitab</span>
+                        </div>
+                        <div>
+                            <span>SWMM</span>
+                        </div>
+                        <div>
+                            <span>MODFLOW</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Tableau</span>
+                        </div>
+                        <div>
+                            <span>SAS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <section id="education">
             <h2>Education</h2>
         </section>
@@ -61,41 +223,74 @@
     </div>
 
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
 
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
-    });
     </script>
 
     <script>
-    var loader = document.getElementById('preloader')
-    show = function(){
-        loader.style.display = 'block';
-        setTimeout(hide, 5000);
-    },
-    hide = function(){
-        loader.style.display = 'none';
-    };
-    show();
+        var loader = document.getElementById('preloader')
+        show = function(){
+            loader.style.display = 'block';
+            setTimeout(hide, 5000);
+        },
+        hide = function(){
+            loader.style.display = 'none';
+        };
+        show();
     </script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const preloader = document.getElementById('preloader');
-        const portfolio = document.getElementById('portfolio');
-    setTimeout(() => {
-        preloader.style.opacity = '0';
-        portfolio.classList.remove('hidden');
-        }, 3000); // Adjust the timeout duration as needed
-    preloader.addEventListener('transitionend', () => {
-        preloader.style.display = 'none';
+        document.addEventListener("DOMContentLoaded", function() {
+            const preloader = document.getElementById('preloader');
+            const portfolio = document.getElementById('portfolio');
+        setTimeout(() => {
+            preloader.style.opacity = '0';
+            portfolio.classList.remove('hidden');
+            }, 3000); // Adjust the timeout duration as needed
+        preloader.addEventListener('transitionend', () => {
+            preloader.style.display = 'none';
+            });
         });
-    });
+    </script>
+
+    <script>
+        const typingContainer = document.getElementById('typing');
+        const texts = ["An Environmental Engineer", "A Systems Engineer", "A GIS Analyst", "A Data Scientist", "An Analytical Thinker", "A Fast Learner", "An Adventurist"];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 200;
+
+        function type() {
+            const currentText = texts[textIndex];
+
+            if (isDeleting) {
+                typingContainer.textContent = currentText.substring(0, charIndex--);
+                typingSpeed = 30;
+            } else {
+                typingContainer.textContent = currentText.substring(0, charIndex++);
+                typingSpeed = 200;
+            }
+
+            if (!isDeleting && charIndex === currentText.length + 1) {
+                isDeleting = true;
+                typingSpeed = 500; // Pause before deleting
+            } else if (isDeleting && charIndex === 1) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                typingSpeed = 500; // Pause before typing next string
+            }
+
+            setTimeout(type, typingSpeed);
+        }
+        document.addEventListener("DOMContentLoaded", type);
     </script>
 
 </body>
