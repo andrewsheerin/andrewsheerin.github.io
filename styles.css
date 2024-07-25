@@ -108,6 +108,27 @@ body {
     background-color: #575757;
 }
 
+.contact-info {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    font-size: 44px;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #0BF5B2;
+}
+
 .portfolio {
     margin-left: 20%;
     padding: 20px;
