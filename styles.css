@@ -26,16 +26,26 @@ body {
 
 #preloader h1, #preloader p {
     margin: 5px 0 0 0;
+    animation: fadeIn 2s forwards;
 }
 
 #preloader h1 {
     font-size: 40px;
-    margin-top: 30%;
+    margin-top: 20px;
+    animation-delay: 0.5s;
 }
 
 #preloader p {
     font-size: 28px;
     margin-top: 10px;
+    animation-delay: 1s;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 .headshot-link {
